@@ -1,3 +1,7 @@
+.section-shaped .shape-style-1.shape-default {
+    background: linear-gradient(150deg,#7795f8 15%,#6772e5 70%,#555abf 94%) !important;
+}
+
 .hljs {
     display: block;
     overflow-x: auto;
@@ -13515,7 +13519,7 @@ textarea[resize=horizontal] {
 }
 
 .section-shaped .shape-default {
-    background: linear-gradient(150deg,#7795f8 15%,#6772e5 70%,#555abf 94%)
+    background: linear-gradient(150deg,#7795f8 15%,#6772e5 70%,#555abf 94%) !important;
 }
 
 .section-shaped .shape-default :nth-child(1) {
@@ -13703,7 +13707,7 @@ textarea[resize=horizontal] {
 }
 
 .section-shaped .shape-style-1.shape-default {
-    background: linear-gradient(150deg,#7795f8 15%,#6772e5 70%,#555abf 94%)
+    background: linear-gradient(150deg,#7795f8 15%,#6772e5 70%,#555abf 94%) !important;
 }
 
 .section-shaped .shape-style-1.shape-light {
@@ -13801,6 +13805,10 @@ textarea[resize=horizontal] {
 .section-shaped .shape-style-3 :nth-child(5) {
     width: 33.33333%;
     bottom: 0
+}
+
+.section-shaped .shape-style-1.shape-default {
+    background: linear-gradient(150deg,#7795f8 15%,#6772e5 70%,#555abf 94%) !important;
 }
 
 @media(max-width: 991.98px) {
@@ -16222,134 +16230,206 @@ pre>code.highlight {
     opacity: 1
 }
 
-  #ofBar {
-    background: #fff;
-    z-index: 999999999;
-    font-size: 16px;
-    color: #333;
-    padding: 16px 40px;
+
+.section-shaped .shape-default {
+    background: linear-gradient(150deg,#7795f8 15%,#6772e5 70%,#555abf 94%) !important;
+}
+.section-shaped .shape {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: open sans,sans-serif;
+    font-size: 1rem;
     font-weight: 400;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 40px;
-    width: 80%;
-    border-radius: 8px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 13px 27px -5px rgba(50,50,93,0.25), 0 8px 16px -8px rgba(0,0,0,0.3), 0 -6px 16px -6px rgba(0,0,0,0.025);
-  }
+    line-height: 1.5;
+    color: #525f7f;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #5e72e4;
+    --indigo: #5603ad;
+    --purple: #8965e0;
+    --pink: #f3a4b5;
+    --red: #f5365c;
+    --orange: #fb6340;
+    --yellow: #ffd600;
+    --green: #2dce89;
+    --teal: #11cdef;
+    --cyan: #2bffc6;
+    --white: #fff;
+    --gray: #8898aa;
+    --gray-dark: #32325d;
+    --light: #ced4da;
+    --lighter: #e9ecef;
+    --primary: #5e72e4;
+    --secondary: #f4f5f7;
+    --success: #2dce89;
+    --info: #11cdef;
+    --warning: #fb6340;
+    --danger: #f5365c;
+    --light: #adb5bd;
+    --dark: #212529;
+    --default: #172b4d;
+    --white: #fff;
+    --neutral: #fff;
+    --darker: black;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 
-  #ofBar-logo img {
-    height: 50px;
-  }
 
-  #ofBar-content {
-    display: inline;
-    padding: 0 15px;
-  }
 
-  #ofBar-right {
-    display: flex;
-    align-items: center;
-  }
 
-  #ofBar b {
-    font-size: 15px !important;
-  }
-  #count-down {
-    display: initial;
-    padding-left: 10px;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  #close-bar {
-    font-size: 17px;
-    opacity: 0.5;
-    cursor: pointer;
-    color: #808080;
-    font-weight: bold;
-  }
-  #close-bar:hover{
+
+.circle-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.circle-1 {
+  width: 50px;
+  height: 50px;
+  background-color: #fb6340b0;
+  left: 8%;
+  top: 50%;
+  animation-name: circle-1;
+  border-radius: 50%;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+    position: absolute;
+
+}
+
+
+
+.circle-3 {
+  width: 80px;
+  height: 90px;
+  background-color: #1cc88aba;
+  right: 10%;
+  top: 70%;
+  animation-name: circle-3;
+    position: absolute;
+  
+  animation-duration: 4s; /* ralentir la durée de l'animation */
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+
+
+}
+
+
+@keyframes circle-1 {
+  0% {
+    transform: scale(1);
     opacity: 1;
   }
-  #btn-bar {
-    background-image: linear-gradient(310deg, #141727 0%, #3A416F 100%);
-    color: #fff;
-    border-radius: 4px;
-    padding: 10px 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 12px;
-    opacity: .95;
-    margin-right: 20px;
-    box-shadow: 0 5px 10px -3px rgba(0,0,0,.23), 0 6px 10px -5px rgba(0,0,0,.25);
+  100% {
+    transform: scale(2);
+    opacity: 0;
   }
-   #btn-bar, #btn-bar:hover, #btn-bar:focus, #btn-bar:active {
-     text-decoration: none !important;
-     color: #fff !important;
- }
-  #btn-bar:hover{
+}
+
+
+
+@keyframes circle-3 {
+0% {
+    transform: translate(-100px, -100px);
+    opacity: 0;
+  }
+  25% {
+    transform: translate(0, 0);
     opacity: 1;
   }
-
-  #btn-bar span, #ofBar-content span {
-    color: red;
-    font-weight: 700;
+  50% {
+    transform: translate(100px, -100px);
+    opacity: 0;
   }
-
-  #oldPriceBar {
-    text-decoration: line-through;
-    font-size: 16px;
-    color: #fff;
-    font-weight: 400;
-    top: 2px;
-    position: relative;
+  100% {
+    transform: translate(-100px, -100px);
+    opacity: 0;
   }
-  #newPrice{
-    color: #fff;
-    font-size: 19px;
-    font-weight: 700;
-    top: 2px;
-    position: relative;
-    margin-left: 7px;
+}
+
+.section-shaped {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-shaped::before,
+.section-shaped::after {
+  content: "";
+  position: absolute;
+  top: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  animation: circle 4s infinite ease-in-out;
+}
+
+.section-shaped::before {
+  animation-delay: -2s;
+}
+
+@keyframes circle {
+  0% {
+    transform: translate(-100px, -100px);
+    opacity: 0;
   }
-
-  #fromText {
-    font-size: 15px;
-    color: #fff;
-    font-weight: 400;
-    margin-right: 3px;
-    top: 0px;
-    position: relative;
+  25% {
+    transform: translate(0, 0);
+    opacity: 1;
   }
-
-  @media(max-width: 991px){
-
+  50% {
+    transform: translate(100px, -100px);
+    opacity: 0;
   }
-  @media (max-width: 768px) {
-    #count-down {
-      display: block;
-      margin-top: 15px;
-    }
-
-    #ofBar {
-      flex-direction: column;
-      align-items: normal;
-    }
-
-    #ofBar-content {
-      margin: 15px 0;
-      text-align: center;
-      font-size: 18px;
-    }
-
-    #ofBar-right {
-      justify-content: flex-end;
-    }
+  100% {
+    transform: translate(-100px, -100px);
+    opacity: 0;
   }
-
+}
