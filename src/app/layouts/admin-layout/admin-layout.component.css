@@ -1,0 +1,5 @@
+.bg-gradient-danger {
+    background-color: #6495ed;
+    background-image: linear-gradient(180deg,#5d8bdf 10%,#0000005c 100%);
+    background-size: cover;
+}
